@@ -1,0 +1,13 @@
+.default-layout {
+  display: flex;
+  width: 100%;
+
+  .sidebar {
+    width: 254px;
+    height: 100vh;
+  }
+
+  .content {
+    width: calc(100vw - 254px);
+  }
+}

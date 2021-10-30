@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Eurostile";
+  src: local("Eurostile"),
+      url("../fonts/Eurostile/erosyt.ttf") format("truetype"),
+      url("../fonts/Eurostile/Eurosti.TTF") format("truetype"),
+      url("../fonts/Eurostile/Eurostib.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Haas Unica Pro";
+  src: local("Neue Haas Unica Pro"),
+      url("../fonts/Neue Haas Unica/Linotype-Black.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Black-It.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Bold.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Heavy.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Heavy-It.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Italic.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Light.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Light-It.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Medium.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Medium-It.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-self.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Thin.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-Thin-Italic.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-UltLight-It.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-UltraLight.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-XBlack.otf") format("truetype"),
+      url("../fonts/Neue Haas Unica/Linotype-XBlack-It.otf") format("truetype");
+}
+
+.d-flex {
+  display: flex;
+}
+
+.children-page {
+  padding: 20px 40px;
+}

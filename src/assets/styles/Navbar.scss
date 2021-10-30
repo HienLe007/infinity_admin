@@ -1,0 +1,69 @@
+.nav-bar {
+  padding: 20px 40px;
+
+  &-inner {
+    align-items: center;
+    justify-content: space-between;
+
+    .page-title {
+      font-family: Eurostile;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+      color: #FF8B00;
+      text-transform: capitalize;
+    }
+
+    .right-part {
+      align-items: center;
+
+      .nav-item {
+        margin-right: 30px;
+        cursor: pointer;
+
+        &.notifications {
+          position: relative;
+
+          div {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #FF8B00;
+            top: 0;
+            right: -2px;
+          }
+        }
+      }
+
+      .v-divider {
+        margin-right: 30px;
+        height: 40px;
+        border-left: 1px solid #DDDFE5;
+      }
+
+      .account-info {
+        align-items: center;
+
+        span {
+          font-family: Neue Haas Unica Pro;          
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.4px;
+          color: #252733;
+          margin-right: 19px;
+        }
+
+        .avatar {
+          border: 1px solid #DDDFE5;
+          padding: 3px;
+          width: 36px;
+          height: 37px;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}
