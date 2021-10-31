@@ -14,6 +14,9 @@ import pendingIcon from "../assets/images/status/help.svg";
 import claimedIcon from "../assets/images/status/check.svg";
 import unClaimedIcon from "../assets/images/status/not_allowed.svg";
 
+import leftArrowImg from "../assets/images/left-arrow.svg";
+import rightArrowImg from "../assets/images/right-arrow.svg";
+
 const sortOptions = [
   { label: "Option 1", value: 1 },
   { label: "Option 2", value: 2 },
@@ -177,8 +180,17 @@ const Payments = () => {
               ))}
             </div>
           </div>
-          <div className="custom-pagination">
-            
+          <div className="custom-pagination d-flex">
+            <div className="indicator">
+              <p>Showing <span>1-5</span> from <span>100</span> data</p>
+            </div>
+            <div className="paginations d-flex">
+              <img src={leftArrowImg} alt="" className="prev-page" />
+              <div className="pagination-item active">1</div>
+              <div className="pagination-item">2</div>
+              <div className="pagination-item">3</div>
+              <img src={rightArrowImg} alt="" className="next-page" />
+            </div>
           </div>      
         </div>
       </div>

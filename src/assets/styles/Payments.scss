@@ -280,5 +280,59 @@
         }
       }
     }
+
+    .custom-pagination {
+      justify-content: space-between;
+      margin-top: 25px;
+
+      .indicator {
+        p {
+          font-family: Neue Haas Unica Pro;          
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #9D9B9C;
+
+          span {
+            color: #252733;
+          }
+        }
+      }
+
+      .paginations {
+        align-items: center;
+
+        .next-page {
+          margin-left: 10.5px;
+        }
+
+        .prev-page {
+          margin-right: 10.5px;
+        }
+
+        .pagination-item {
+          border-radius: 33.7143px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 42px;
+          min-height: 42px;
+          height: 42px;
+          margin: 0 10.5px;
+          font-family: Neue Haas Unica Pro;          
+          font-weight: 400;
+          font-size: 15.1714px;
+          line-height: 23px;
+          color: #9D9B9C;
+          border: 1px solid #9D9B9C;
+
+          &.active {
+            background: #FF8B00;
+            border: 1px solid #FF8B00;
+            color: white;
+          }
+        }
+      }
+    }
   }
 }
