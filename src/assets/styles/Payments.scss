@@ -49,4 +49,236 @@
       }
     }
   }
+
+  &-list {
+    margin-top: 50px;
+
+    .table-functions {
+      margin-bottom: 11px;
+      justify-content: space-between;
+      
+      .search-input {
+        position: relative;
+
+        input {
+          padding: 6.5px 15px 6.5px 35px;
+          background: #F2F2F2;
+          border-radius: 12px;
+          outline: none;
+          border: none;
+          font-family: Neue Haas Unica Pro;          
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          min-width: 350px;
+        }
+
+        img {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+        }
+      }
+
+      .other-functions {
+        select {
+          margin-right: 8px;
+          padding: 6.5px 14.5px;
+          min-width: 150px;
+          border: 1px solid #DDDFE5;
+          box-sizing: border-box;
+          border-radius: 12px;
+          font-family: Neue Haas Unica Pro;          
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #9D9B9C;
+        }
+      }
+    }
+
+    .custom-table {
+      border: 1px solid #DDDFE5;
+      box-sizing: border-box;
+      border-radius: 12px;
+      padding: 32px;
+
+      &-header {
+        justify-content: space-between;
+        width: 100%;
+        padding: 16px 0;
+        background: linear-gradient(0deg, #FAFAFA, #FAFAFA);
+        border-radius: 12px;
+        font-family: Neue Haas Unica Pro;        
+        font-weight: bold;
+        font-size: 13.33px;
+        line-height: 20px;        
+        letter-spacing: 0.4px;
+        color: #252733;
+        box-sizing: border-box;
+        text-align: center;
+
+        .name {
+          width: 15%;
+          text-align: left;
+          padding-left: 20px;
+        }
+
+        .claim_status {
+          width: 15%;
+        }
+
+        .account_total {
+          width: 15%;
+        }
+
+        .scholar_share {
+          width: 15%;
+        }
+
+        .manager_share {
+          width: 15%;
+        }
+
+        .payment_status {
+          width: 10%;
+        }
+
+        .destimation_match {
+          width: 15%;
+        }
+
+      }
+
+      &-content {
+        
+      }
+
+      &-item {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 21px 0;
+        border-bottom: 1px solid #DDDFE5;
+        font-family: Neue Haas Unica Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13.33px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #252733;
+
+        .name {
+          width: 15%;
+          text-align: left;
+          padding-left: 20px;
+        }
+
+        .claim_status {
+          width: 15%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          &.claimed {
+            .status-inner {              
+              border: 1px solid #FF8B00;
+              color: #FF8B00;
+            }
+          }
+
+          &.unclaimed {
+            .status-inner {
+              border: 1px solid #231F20;
+              color: #231F20;
+            }
+          }
+
+          .status-inner {
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            min-width: 135px;
+            border-radius: 30px;
+            color: white;
+            border-radius: 40px;
+            box-sizing: border-box;
+
+            img {
+              margin-right: 9px;
+            }
+          }
+        }
+
+        .account_total {
+          width: 15%;
+          text-align: center;
+        }
+
+        .scholar_share {
+          width: 15%;
+          text-align: center;
+        }
+
+        .manager_share {
+          width: 15%;
+          text-align: center;
+        }
+
+        .payment_status {
+          width: 10%;
+
+          &.paid {
+            .status-inner {
+              background-color: #FF8B00;;
+            }
+          }
+
+          &.unpaid {
+            .status-inner {
+              background-color: #231F20;;
+            }
+          }
+
+          &.pending {
+            .status-inner {
+              background-color: #83B5D1;;
+            }
+          }          
+
+          .status-inner {
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            max-width: 108px;
+            border-radius: 30px;
+            color: white;
+
+            img {
+              margin-right: 9px;
+            }
+          }
+        }
+
+        .destimation_match {
+          width: 15%;
+          text-align: center;
+          text-transform: capitalize;
+
+          &.perfect {
+            color: #FF8B00;
+          }
+
+          &.error {
+            color: #252733;
+          }
+
+          &.hold {
+            color: #83B5D1;
+          }
+        }
+      }
+    }
+  }
 }
