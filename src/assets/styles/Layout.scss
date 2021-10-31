@@ -5,9 +5,11 @@
   .sidebar {
     width: 254px;
     height: 100vh;
+    position: fixed;
   }
 
   .content {
     width: calc(100vw - 254px);
+    margin-left: 254px;
   }
 }
